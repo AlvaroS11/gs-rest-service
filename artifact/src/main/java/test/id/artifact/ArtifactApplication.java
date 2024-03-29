@@ -5,15 +5,15 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import test.id.artifact.Service.IPersonaService;
+//import test.id.artifact.Service.IPersonaService;
 
 
 @SpringBootApplication
 public class ArtifactApplication implements  CommandLineRunner{
 
 
-	@Autowired
-	private IPersonaService service;
+//	@Autowired
+	//private IPersonaService service;
 	public static void main(String[] args) {
 		SpringApplication.run(ArtifactApplication.class, args);
 	}
@@ -21,7 +21,7 @@ public class ArtifactApplication implements  CommandLineRunner{
 	@Override
 	public void run(String... args) throws Exception {
 		// TODO Auto-generated method stub
-		service.registrar("ddd");
+		//service.registrar("ddd");
 		System.out.println("holaaaa ");
 	}
 
