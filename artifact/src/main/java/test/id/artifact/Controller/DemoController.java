@@ -24,9 +24,10 @@ class DemoController {
 
 
         //esto que es la lógica iria en service
+        System.out.println("llego con" + name);
         Persona p = new Persona();
         p.setIdPersona(1);
-        p.setNombre("Mitocode");
+        p.setNombre(name);
         repo.save(p);
         
 
